@@ -1,2 +1,2 @@
-heroku config:set DISABLE_COLLECTSTATIC=1
+
 web: gunicorn my_project.wsgi
